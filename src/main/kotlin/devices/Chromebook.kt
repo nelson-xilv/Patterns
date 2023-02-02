@@ -1,0 +1,7 @@
+package devices
+
+class Chromebook: DeviceGoogle {
+    override fun typeOs(): String {
+        return "OS in Chromebook: ${DeviceType.CHROMEBOOK.nameOs}"
+    }
+}
